@@ -27,6 +27,11 @@ const ROUTES: RouteLink[] = [
   },
   {
     id: 2,
+    url: "/categories",
+    label: "Categories",
+  },
+  {
+    id: 3,
     url: "/users",
     label: "Users",
   },

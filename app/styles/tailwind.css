@@ -20,7 +20,7 @@
 
   main {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1600px;
     margin-inline: auto;
   }
 
@@ -48,9 +48,31 @@
     cursor: pointer;
   }
 
+  section {
+    padding: 1rem 0px;
+  }
+
+  img {
+    pointer-events: none;
+    border-radius: 8px;
+    aspect-ratio: "1/1";
+  }
+
   .link-active {
     font-weight: 600;
     color: #d77a61;
     text-decoration: underline;
+  }
+
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .card {
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 8px;
   }
 }
