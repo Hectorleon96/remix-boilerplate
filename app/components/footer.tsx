@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="w-full bg-gray-800 py-4 mt-12">
       <div className="px-4 text-center text-sm">
         <p>
-          Demo de productos usando la{" "}
+          Demo of &nbsp;
           <a
             href="https://fakeapi.platzi.com/en"
             target="_blank"
@@ -14,7 +14,6 @@ export default function Footer() {
           </a>
           .
         </p>
-        <p className="mt-2">Creado con ❤️ usando Remix y Tailwind CSS.</p>
       </div>
     </footer>
   );
